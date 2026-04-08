@@ -6,10 +6,10 @@ metadata:
 spec: 
   project: default 
   source: 
-    repoURL: 
+    repoURL: https://github.com/argoproj/argocd-example-apps.git
     targetRevision: HEAD 
     path: guestbook
   destination: 
-    server: 
+    server: https://kubernetes.default.svc
     namespace: guestbook
     
